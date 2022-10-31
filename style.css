@@ -53,3 +53,25 @@ nav a:hover {
   color: white;
   margin-top: 20px;
 }
+
+.font-formatting {
+  font-weight: bold;
+}
+.spacing {
+  margin: 10px 0;
+}
+
+.navigation-to-repositories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+}
+div a:hover {
+  text-decoration: underline;
+}
